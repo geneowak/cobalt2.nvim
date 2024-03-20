@@ -2,7 +2,7 @@ local colors = require("cobalt2.utils").colors
 local styles = require("cobalt2.utils").styles
 local Group = require("cobalt2.utils").Group
 
-Group.new("ColorColumn", nil, colors.dark_grey, nil)
+Group.new("ColorColumn", nil, colors.darker_blue, nil)
 Group.new("CommandMode", colors.black, colors.darker_blue, nil)
 Group.new("Conceal", colors.dark_grey, nil, nil)
 Group.new("CurSearch", colors.black, colors.yellow, styles.NONE)
@@ -42,7 +42,7 @@ Group.new("QuickFixLine", colors.yellow, colors.cursor_hover, nil)
 Group.new("ReplacelMode", colors.black, colors.dark_pink, nil)
 Group.new("Search", colors.black, colors.blue, styles.NONE)
 Group.new("SignColumn", colors.cobalt_bg, nil, nil)
-Group.new("SpecialKey", colors.darker_grey, colors.cobalt_bg, nil)
+Group.new("SpecialKey", colors.light_blue, colors.cobalt_bg, nil)
 Group.new("SpellBad", colors.red, nil, styles.undercurl)
 Group.new("SpellCap", nil, colors.darkest_blue, styles.undercurl)
 Group.new("SpellLocal", nil, colors.darkest_green, styles.undercurl)
